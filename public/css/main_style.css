@@ -27,6 +27,7 @@ a {
     height: 100vh;
     width: 100%;
     background-color: #141414;
+    overflow: hidden;
 }
 
 
@@ -105,6 +106,11 @@ a {
 
 .nav_selected {
     color: #00a9a5;
+}
+
+.nav_selected:hover {
+    color: #00a9a5;
+    cursor: text;
 }
 
 .settings_nav_img,
@@ -198,6 +204,31 @@ a {
 
 .dollar_amount {
     color: #e7ecef;
+}
+
+.year_select_arrow {
+    color: #00a9a5;
+    cursor: pointer;
+}
+
+.year_select_arrow:hover {
+    color: #f26430;
+}
+
+
+/* This section sets the styles for the main budget window */
+
+.main_budget_window {
+    height: 84%;
+    width: 100%;
+    background-color: aqua;
+    margin-top: 2em;
+    overflow-y: scroll;
+    box-sizing: content-box;
+}
+
+::-webkit-scrollbar {
+    width: 0;
 }
 
 
