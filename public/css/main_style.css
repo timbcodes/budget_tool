@@ -35,7 +35,7 @@ a {
 .sidebar_container {
     background-color: aqua;
     height: 100vh;
-    width: 15%;
+    width: 20em;
     background-color: #343434;
 }
 
@@ -157,10 +157,47 @@ a {
 /* This section sets the style for the main budget container*/
 
 .main_budget_window_container {
-    background-color: aqua;
-    width: 45%;
+    width: 60em;
     height: 100vh;
     margin-left: 5%;
+}
+
+.main_budget_top_bar {
+    margin-top: 0.75em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #e7ecef;
+    color: #e7ecef;
+}
+
+.date_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.budget_date {
+    font-size: 2.5em;
+}
+
+.year_span {
+    color: #9db2be;
+    font-size: 1em;
+}
+
+.left_to_budget_text,
+.dollar_amount {
+    font-size: 1.25em;
+    margin-top: -10px;
+}
+
+.left_to_budget_text {
+    color: #9db2be;
+}
+
+.dollar_amount {
+    color: #e7ecef;
 }
 
 
@@ -170,5 +207,4 @@ a {
     width: 25%;
     height: 100vh;
     margin-left: 5%;
-    background-color: blueviolet;
 }
