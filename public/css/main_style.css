@@ -17,6 +17,19 @@ a {
 }
 
 
+/* This section will style the main content div */
+
+.main_content_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    width: 100%;
+    background-color: #141414;
+}
+
+
 /* This sets the style */
 
 .sidebar_container {
@@ -30,7 +43,7 @@ a {
 /* Settings for the top logo container in the sidebar */
 
 .main_logo_sidebar_container {
-    height: 8em;
+    height: 12%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -49,6 +62,7 @@ a {
 .main_logo_image {
     font-size: 3em;
     margin-right: 0.25em;
+    color: #f26430;
 }
 
 .main_logo_text {
@@ -57,6 +71,7 @@ a {
 
 .super_text {
     font-size: 0.5em;
+    color: #f26430;
 }
 
 
@@ -69,4 +84,71 @@ a {
     align-items: flex-start;
     justify-content: space-between;
     border-bottom: 1px solid #e7ecef;
+    padding: 3em 2em;
+}
+
+.budget_link {
+    margin-bottom: 5px;
+}
+
+.side_by_side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1em;
+}
+
+.side_by_side:hover {
+    color: #f26430;
+}
+
+.nav_selected {
+    color: #00a9a5;
+}
+
+.settings_nav_img,
+.sidebar_nav_img,
+.budget_list,
+.settings_list {
+    font-size: 1.75em;
+}
+
+
+/* This section will style the logged-in section */
+
+.main_sidebar_whois_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 10%;
+}
+
+.whoami_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-left: 1em;
+}
+
+.whoami_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 50%;
+    color: #e7ecef;
+    border: 1px solid #e7ecef;
+}
+
+.whoami_name_disp {
+    font-size: 1.5em;
+    color: #e7ecef;
+}
+
+.sign_out_link {
+    color: #f26430;
 }
