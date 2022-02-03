@@ -2,20 +2,59 @@
 <html>
 
 <head>
-    <title>
-        <%= title %>
-    </title>
+    <title>Budget App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&family=Dongle:wght@300;400&family=Mulish:ital,wght@0,200;0,400;0,800;1,200&family=Varela+Round&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="../public/css/normalize.css" />
-    <link rel="stylesheet" href="../public/stylesheets/style.css" />
+    <link rel="stylesheet" href="../public/css/main_style.css" />
 </head>
 
 <body>
-    <h1>
-        <%= title %>
-    </h1>
-    <p>Welcome to
-        <%= title %>
-    </p>
+    <div class="main_content_container">
+        <div class="sidebar_container">
+            <div class="main_logo_sidebar_container">
+                <div class="main_logo_container">
+                    <i class="main_logo_image fas fa-wallet"></i>
+                    <h1 class="main_logo_text">
+                        budge.me<sup class="super_text">beta</sup>
+                    </h1>
+                </div>
+            </div>
+            <div class="main_sidebar_content_container">
+                <div class="main_nav_container">
+                    <div class="budget_nav_container">
+                        <a href="#" class="budget_link side_by_side" id="budget_link">
+                            <i class="sidebar_nav_img fas fa-clipboard-list"></i>
+                            <p class="budget_list">Budget</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="options_and_features_container">
+                    <div class="settings_container">
+                        <a href="#" class="settings_link side_by_side">
+                            <i class="settings_nav_img fas fa-cog"></i>
+                            <p class="settings_list">Settings</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="main_sidebar_whois_container">
+                <div class="whoami_container">
+                    <div class="whoami_content_container">
+                        <div class="whoami_logo">
+                            <h1 class="whoami_logo_txt">TS</h1>
+                        </div>
+                    </div>
+                    <div class="whoami_name_cont">
+                        <h1 class="whoami_name_disp">testing@test.test</h1>
+                        <a href="#" class="sign_out_link">Sign Out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
