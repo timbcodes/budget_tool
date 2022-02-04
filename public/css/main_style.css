@@ -57,6 +57,7 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding: 20px 40px;
 }
 
 .main_logo_image {
@@ -70,7 +71,7 @@ a {
 }
 
 .super_text {
-    font-size: 0.5em;
+    font-size: 0.45em;
     color: #f26430;
 }
 
@@ -116,7 +117,7 @@ a {
 .sidebar_nav_img,
 .budget_list,
 .settings_list {
-    font-size: 1.75em;
+    font-size: 1.5em;
 }
 
 
@@ -134,8 +135,10 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     gap: 10px;
-    margin-left: 1em;
+    margin-left: 0;
+    padding: 1em;
 }
 
 .whoami_logo {
@@ -245,6 +248,8 @@ a {
 .main_item_containers {
     background-color: #e7ecef;
     border-radius: 5px;
+    margin-bottom: 2em;
+    padding: 1em 2em;
 }
 
 .main_title_flex_container {
@@ -264,11 +269,14 @@ a {
 .main_title_container {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .lead_in_text {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .other_header_items {
@@ -279,9 +287,41 @@ a {
 .budget_item_row_container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #343434;
+    margin-top: 0.5em;
 }
 
 .amounts_listed {
     display: flex;
     flex-direction: row;
+}
+
+.add_item_container {
+    margin-top: 1em;
+    font-size: .75em;
+    color: #00a9a5;
+    cursor: pointer;
+}
+
+.collapse_arrow {
+    margin-left: 8px;
+}
+
+.dollar_bill {
+    margin-right: 5px;
+    color: green;
+}
+
+.planned_disp_left {
+    margin-right: 5em;
+}
+
+.amount_disp_left {
+    margin-right: 2.25em;
+}
+
+.item_budget_align_fix {
+    text-align: right;
+    width: 10em;
 }
