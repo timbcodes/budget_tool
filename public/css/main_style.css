@@ -304,6 +304,10 @@ a {
     cursor: pointer;
 }
 
+.add_item {
+    font-weight: 600;
+}
+
 .collapse_arrow {
     margin-left: 8px;
 }
@@ -324,4 +328,43 @@ a {
 .item_budget_align_fix {
     text-align: right;
     width: 10em;
+}
+
+.add_group_container {
+    background-color: #e7ecef;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1em 2em;
+}
+
+.add_group_text_cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.add_group_plus {
+    color: #00a9a5;
+}
+
+.add_group_text {
+    color: #141414;
+    font-weight: 600;
+    font-size: 1.3em;
+    margin-left: 0.5em;
+}
+
+.add_group_text:hover {
+    color: #00a9a5;
+}
+
+.reset_budget_container {
+    margin: 3em 2em;
+}
+
+.reset_text {
+    color: #e7ecef;
 }
