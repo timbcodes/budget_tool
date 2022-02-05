@@ -502,6 +502,7 @@ a {
 
 .summary_list_item p {
     font-size: 1.2em;
+    cursor: pointer;
 }
 
 .percentage_grouping_cont {
